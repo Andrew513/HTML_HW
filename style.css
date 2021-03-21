@@ -1,25 +1,31 @@
 @import url("reset.css");
 
 body{
-    background: color #c3c9ba;
+    background-color: #808080;
+    margin:0 auto;
 }
 
 #header{
-    width:1000;
+    width:1230;
     margin: 0 auto;
     
 }
 
+
 #navig{
-    width:1200px;
+    width:1230px;
     margin:0 auto;
     overflow:hidden;
 }
 
 #navig li{
+    list-style: none;
     float:left;
+}
+
+#navig li a{
     display:block;
-    width:190px;
+    width: 190px;
     height:50px;
     line-height:50px;
     background-color: rgb(230, 172, 184);
@@ -27,17 +33,18 @@ body{
     color:#FFF;
     letter-spacing: 2px;
     text-align: center;
-    text-decoration: black;
+    text-decoration: none;
 }
 
 #content{
     clear:both;
-    width:1000px;
+    width:1140px;
     margin: 0 auto;
     background-color: rgb(141, 218, 158);
     padding-top: 5px;
     padding-bottom: 30px;
 }
+
 
 #content p{
     text-indent:50px;
