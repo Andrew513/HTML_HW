@@ -1,15 +1,18 @@
 @import url("reset.css");
 
 body{
-    /* width: 1500px;
-    margin-left:auto;
-    margin-right:auto; */
     background-color: #808080;
     margin:0 auto;
 }
 
-/* @media screen and (max-width:600px){
-    content{width:100%;} */
+content{
+    width: 1500px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media screen and (max-width:600px){
+    content{width:100%;}
 }
 #header{
     width:1230;
